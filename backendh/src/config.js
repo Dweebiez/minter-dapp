@@ -55,7 +55,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Dweebiez';
+const CONTRACT_NAME = 'DweebiezNFT';
 const CONTRACT_SYMBOL = 'DWEEBZ';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x9E5B8F509351334457C66334e4e1F07Cb34686c9';

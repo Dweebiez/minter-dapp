@@ -103,7 +103,7 @@ const solanaMetadata = {
     seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
     external_url: "https://www.youtube.com/c/hashlipsnft",
     creators: [{
-        address: "0x9E5B8F509351334457C66334e4e1F07Cb34686c9",
+        address: "0x8595dbB0438eBA665156319a418d24D9603d9Eb5,0x9E5B8F509351334457C66334e4e1F07Cb34686c9",
         share: 100,
     }, ],
 };

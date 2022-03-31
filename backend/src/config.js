@@ -65,15 +65,15 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 12; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-25T20:03:00+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-07T23:03:00+02:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-03-24T01:03:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-04-01T23:03:00+02:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x9E5B8F509351334457C66334e4e1F07Cb34686c9"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x9E5B8F509351334457C66334e4e1F07Cb34686c9"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x9E5B8F509351334457C66334e4e1F07Cb34686c9","0x9E5B8F509351334457C66334e4e1F07Cb34686c9"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -81,8 +81,8 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "From Planet Dwee! Which Dweebie will you wellcome after One billon seconds Meterstellar journey"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeig5i4crv45isnaz7kutv4lmtpo2mnayvbmegw567cra222unmvmj4"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Celebrating a billion seconds, From Planet Dwee! Which Dweebie will you wellcome after One billon seconds Meterstellar journey"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeibcchk23nhchsablg5z6xh6357sgxjyuen27sk7kqnju2qv3nso6y"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -101,9 +101,9 @@ try {
 const solanaMetadata = {
     symbol: "DWEEBZ",
     seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-    external_url: "https://www.youtube.com/c/hashlipsnft",
+    external_url: "https://twitter.com/DweebieProject",
     creators: [{
-        address: "0x8595dbB0438eBA665156319a418d24D9603d9Eb5,0x9E5B8F509351334457C66334e4e1F07Cb34686c9",
+        address: "0x9E5B8F509351334457C66334e4e1F07Cb34686c9",
         share: 100,
     }, ],
 };

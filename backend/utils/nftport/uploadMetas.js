@@ -69,7 +69,7 @@ async function main() {
             "custom_fields": {
                 "date": metaData.date,
                 
-    "external_url": "https://codecats.xyz","compiler": "HashLips Art Engine"
+    "external_url": "https://twitter.com/DweebieProject","compiler": "HashLips Art Engine"
             }
         }
 

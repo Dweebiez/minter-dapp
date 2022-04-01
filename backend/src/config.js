@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Dweebiez";
+const namePrefix = "DweebiezX";
 const description = "11574 Dweebies From Planet Dwee They Launched on Monday 30 July 1990 23:03. Landed on The Earth On 07 April 2022 23.03 +2UCT After One Billion Seconds Metarstellar Travel. Neurodivergents Minds & Hearts Full of Love They Celebrate their arrival By Helping Humans With thier Super Minds.";
 const baseUri = "ipfs://NewUriToReplace";
 
@@ -55,8 +55,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'DweebiezNFT';
-const CONTRACT_SYMBOL = 'DWEEBZ';
+const CONTRACT_NAME = 'DweebieX';
+const CONTRACT_SYMBOL = 'DWEEBZX';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x9E5B8F509351334457C66334e4e1F07Cb34686c9';
 const TREASURY_ADDRESS = '0x9E5B8F509351334457C66334e4e1F07Cb34686c9';
@@ -70,10 +70,10 @@ const PUBLIC_MINT_START_DATE = "2022-04-07T23:03:00+02:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-04-01T23:03:00+02:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x9E5B8F509351334457C66334e4e1F07Cb34686c9"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x985F17545d623202247ccb555AB47443BdF41Ac8"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x9E5B8F509351334457C66334e4e1F07Cb34686c9","0x9E5B8F509351334457C66334e4e1F07Cb34686c9"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x9E5B8F509351334457C66334e4e1F07Cb34686c9"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it

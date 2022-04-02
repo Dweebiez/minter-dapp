@@ -1,14 +1,14 @@
-const contractAddress = "0x39A08B8f72c9CDbcb4077FFF97010a58F6915807"; //Replace with your own contract address
+const contractAddress = "0x3Eb979B6ff1EC1453cE03FCdaE3d9CC810498B9c"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Dweebiezs NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Dweebiezs NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'Dweebie NFT is a 11574 NFT Collection, The First ⏳Billionth Seconds birthday NFT representing almost ⏳billion seconds in Days. Each Dweeb is a ✨Big Heart with a massive brain, This is a Trait of being Neurodivergent the side effect of a loving & Using 🧠200% of their Brains. Outcasted From 🪐Dwreek By the Normalz, rejected and reddiculed for who They are🦄. Let them make you Explode💥 in Joy in This Moment for ⏱ "The distinction between the past, present and future is only a stubbornly persistent Dweebie." 👨‍🦳Dwibert Dweeinstein';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
-const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
-const h2_presale_mint = "Public Minting Countdown";
+const h2_presale_coming_soon = "Pre-Landing Minting Countdown";
+const h2_presale_mint = "Mass Landing Countdown";
 const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
